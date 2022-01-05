@@ -15,7 +15,7 @@ $sql->baglan(
   'UTF-8' , // Charset
 );
 ```
-#Simple MySQL query
+# Simple MySQL query
 sorgu(); function is used to run a query you want in MySQL,
 Note : mysqli_query(); gives the same output as the function
 ```
@@ -30,7 +30,7 @@ $data = $sql->suzgec($data);
 var_dump($data);
 ```
 
-#assoc() function
+# assoc() function
 mysql_fetch_assoc(); is the same as the function
 ```
 $query = "SELECT * FROM `users` WHERE id = 1";
@@ -38,7 +38,7 @@ $data = $sql->assoc($query);
 var_dump($data);
 ``
 
-#while_assoc function()
+# while_assoc function()
 Collects multiple data under a single array
 ```
 $query = "SELECT * FROM `blogs`";
