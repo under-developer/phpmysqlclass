@@ -72,7 +72,7 @@ $add_array = [
 $add = $sql->ekle($add_array,"users",false); // It will be added to the "users" table
 var_dump($add); // Output : (boolen)true or false
 ```
-If you set the $html variable of the ekle() function to true, it will allow adding html data to mysql 
+If you set the $html variable of the ekle() function to true, your Data will be passed through the htmlspecialchars() function before it is inserted into the table.
 ```php
 $add_array = [
   "name" => "User name",
