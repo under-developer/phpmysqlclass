@@ -82,6 +82,7 @@ $add_array = [
 $add = $sql->ekle($add_array,"users",true); // It will be added to the "users" table
 var_dump($add); // Output : (boolen)true or false
 ```
-```
-NOTE : Before adding the table of values to columns, the entered values are passed through the suzgec() function
-```
+---
+**NOTE**
+Before adding the table of values to columns, the entered values are passed through the suzgec() function
+---
