@@ -22,7 +22,7 @@ Note : mysqli_query(); gives the same output as the function
 $query = $sql->sorgu('SELECT * FROM `users` WHERE `id` = 1');
 var_dump($query);
 ```
-# The suzgec(); function
+# The suzgec() function
 mysql_real_escape_string(); is the same as the function
 ```
 $data = " Düştü m’ola sevdiğimin yurduna ";
@@ -37,7 +37,7 @@ $query = "SELECT * FROM `users` WHERE id = 1";
 $data = $sql->assoc($query);
 var_dump($data);
 ```
-# while_assoc function
+# while_assoc() function
 Collects multiple data under a single array
 
 ```
