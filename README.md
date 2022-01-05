@@ -43,11 +43,10 @@ Collects multiple data under a single array
 ```
 $query = "SELECT * FROM `blogs`";
 $data = $sql->while_assoc($query);
-#var_dump($data);
+ 
 
 for($i = 0;$i < count($data); $i++){
    echo $data[$i]["blog_id"];
    echo $data[$i]["blog_title"];
 }
-
 ```
